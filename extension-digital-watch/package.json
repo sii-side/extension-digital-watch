@@ -1,0 +1,12 @@
+{
+  "name": "extension-digital-watch",
+  "devDependencies": {
+    "babel-preset-es2015": "*"
+  },
+  "scripts": {
+    "build": "babel src/js -d extension/js --no-comments",
+    "watch": "watch \"npm run build\" src/js"
+  },
+  "author": "sii",
+  "license": "MIT"
+}
